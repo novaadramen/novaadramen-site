@@ -1,0 +1,452 @@
+/* Novaadramen – Final Theme: Black | Dark Gray | Maroon | White */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Roboto+Condensed:wght@400;600&display=swap');
+
+:root {
+  --main-bg: #0b0909;        /* Deep black */
+  --dark-gray: #1a1a1a;      /* Section background */
+  --text-light: #fffefe;     /* Pure white */
+  --accent: #850926;         /* Maroon */
+
+  --font-base: 0.95rem;
+  --font-small: 0.875rem;
+  --font-heading: 2rem;
+  --font-subheading: 1.25rem;
+  --line-height: 1.7;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Roboto Condensed', sans-serif;
+  background-color: var(--main-bg);
+  color: var(--text-light);
+  scroll-behavior: smooth;
+  font-size: var(--font-base);
+  line-height: var(--line-height);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--text-light);
+}
+
+section {
+  padding: 80px 20px;
+}
+
+@font-face {
+  font-family: 'Kunstler Script';
+  src: url('../assets/fonts/kunstler-script.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Resume Button */
+.btn-outline-resume {
+  border: 1.5px solid var(--accent);
+  color: var(--text-light);
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+.btn-outline-resume:hover {
+  background-color: var(--accent);
+  color: var(--text-light);
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--main-bg);
+  border-bottom: 1px solid var(--accent);
+}
+.navbar .nav-link {
+  color: var(--text-light);
+  font-weight: 500;
+  font-size: var(--font-base);
+}
+.navbar .nav-link:hover {
+  color: var(--accent);
+}
+.navbar .navbar-brand {
+  color: var(--text-light);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/images/my_hero_bg.webp') center center / cover no-repeat;
+  height: 100vh;
+  position: relative;
+  padding-top: 350px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--text-light);
+}
+.hero-section p.lead {
+  font-size: var(--font-subheading);
+  color: #cfcfcf;
+}
+.hero-section .btn {
+  border-color: var(--accent);
+  color: var(--text-light);
+}
+.hero-section .btn:hover {
+  background-color: var(--accent);
+  color: var(--text-light);
+}
+.loop-title {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: #cfcfcf;
+}
+.founder-subtext {
+  font-size: 0.80rem;
+  color: var(--accent); /* maroon */
+  margin-top: 10px;
+}
+/* Hero Section – My World */
+.hero-myworld {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/images/myworld.webp') center center / cover no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.hero-myworld .overlay {
+  max-width: 900px;
+}
+.hero-verse {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* About Section */
+#about {
+  background-color: var(--dark-gray);
+  color: var(--text-light);
+}
+#about h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: var(--font-heading);
+}
+#about p {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: var(--font-base);
+  line-height: var(--line-height);
+}
+
+/* ─── EXPERIENCE SECTION ─────────────────────────────── */
+#experience {
+  background-color: var(--main-bg);
+  color: var(--text-light);
+  padding: 80px 20px;
+}
+
+#experience h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: var(--font-heading);
+}
+
+#experience .role-card {
+  margin-bottom: 40px;
+}
+
+#experience .role-card h5 {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+#experience .role-card p.location {
+  font-size: var(--font-small);
+  color: #9a9a9a;
+  margin-bottom: 4px;
+}
+
+#experience .role-card p.title {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+  color: #e0e0e0;
+}
+.company-logo {
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(255,255,255,0.1);
+  max-height: 60px;
+  min-height: 60px;
+  max-width: 100%;   /* ✅ Add this */
+  object-fit: contain; /* ✅ Add this to prevent distortion */
+}
+
+#mystory h4 {
+  color: #850926; /* Novaadramen maroon accent */
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+
+/* Projects Section */
+#projects {
+  background-color: var(--main-bg);
+  color: var(--text-light);
+  border-top: 2px solid var(--accent);
+}
+#projects h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: var(--font-heading);
+}
+#projects p {
+  text-align: center;
+  font-size: var(--font-base);
+  line-height: var(--line-height);
+}
+.text-accent {
+  color: #a27f06;
+}
+
+
+/* Contact Section */
+#contact {
+  background-color: var(--dark-gray);
+  color: var(--text-light);
+}
+#contact h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: var(--font-heading);
+}
+#contact p,
+#contact a {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  font-size: var(--font-base);
+}
+/*landing page style*/
+.section-dark {
+  background-color: #121212;
+  color: #fffefe;
+}
+/* Footer */
+footer {
+  background-color: var(--main-bg);
+  color: var(--text-light);
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid var(--accent);
+  font-size: var(--font-small);
+}
+/* 📱 Mobile Fixes for Novaadramen */
+
+/* 🔹 Devices up to 768px (Tablets and Medium Phones) */
+@media (max-width: 768px) {
+  .hero-section {
+    padding-top: 180px;
+  }
+
+  .hero-myworld {
+    padding-top: 150px;
+  }
+
+  .hero-verse {
+    font-size: 1rem;
+  }
+
+  .loop-title {
+    font-size: 0.9rem;
+  }
+
+  h1, .display-5 {
+    font-size: 1.75rem !important;
+  }
+
+  h3 {
+    font-size: 1.25rem !important;
+  }
+
+  #experience .role-card h5 {
+    font-size: 0.95rem;
+  }
+
+  #experience .role-card p.title {
+    font-size: 0.75rem;
+  }
+
+  .company-logo {
+    max-height: 45px;
+  }
+}
+
+
+/* 🔹 Devices up to 500px (Galaxy S20, iPhone SE) */
+@media (max-width: 500px) {
+  body {
+    font-size: 0.90rem;
+    line-height: 1.6;
+  }
+
+  .hero-section h1,
+  .display-4,
+  .display-5 {
+    font-size: 1.6rem !important;
+  }
+
+  .loop-title {
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  .founder-subtext {
+    font-size: 0.7rem;
+  }
+
+  .hero-myworld {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+
+  .hero-verse {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+
+  .hero-myworld .overlay p {
+    font-size: 0.75rem;
+  }
+
+  h3, h4 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.90rem;
+  }
+}
+
+/* 🔹 Ultra Compact Devices up to 400px */
+@media (max-width: 400px) {
+  /* No need to duplicate what's covered in 500px */
+  /* You may tweak spacing or remove elements if needed later */
+}
+
+
+/* 🧠 Final font fix override */
+.quote-bar h1.quote-text {
+  all: unset;
+  font-size: 2rem !important;
+  font-weight: 600;
+  color: #fffefe;
+  line-height: 1.4;
+  display: block;
+  text-align: center;
+}
+.quote-bar .quote-author {
+  font-size: 1.1rem !important;
+  font-style: italic;
+  color: #bebcbc;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* ✅ Responsive fix */
+@media (max-width: 576px) {
+  .quote-bar h1.quote-text {
+    font-size: 1.2rem !important;
+  }
+}
+/* 📱 Mobile Font Fix for MyWorld Hero Verse */
+@media (max-width: 576px) {
+  .hero-verse {
+    font-size: 1rem !important;
+    line-height: 1.6;
+    padding: 0 15px;
+  }
+
+  .hero-myworld .overlay p {
+    font-size: 0.75rem !important;
+  }
+}
+/* 📱 Mobile Font Scaling for index.html Hero */
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 2rem !important;
+  }
+
+  .hero-section h3,
+  .loop-title {
+    font-size: 0.9rem !important;
+  }
+
+  .founder-subtext {
+    font-size: 0.8rem !important;
+  }
+
+  .hero-section .btn {
+    font-size: 0.85rem;
+    padding: 8px 18px;
+  }
+}
+@media (max-width: 576px) {
+  .hero-section .container {
+    padding-top: 180px; /* push content down on mobile */
+  }
+
+  .hero-section {
+    padding-top: 100px !important; /* optional: softens the entry */
+    height: auto; /* removes strict 100vh if needed */
+    min-height: 100vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photography | Novaadramen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+<style>
+  /* 🎯 HERO SLIDESHOW STYLES */
+  .hero-slide-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    object-position: center;
+    background-color: #212529; /* fallback if image doesn't fill height */
+    display: block;
+  }
+  
+
+  .carousel-item {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+  }
+
+  .carousel-inner {
+    max-height: 100vh;
+    
+  }
+  .photography-page .carousel-inner {
+  background-color: #212529 !important;
+}
+
+  /* 📜 QUOTE OVERLAY */
+  .overlay-quote {
+    z-index: 10;
+    width: 100%;
+  }
+
+  .overlay-quote h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .overlay-quote p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #bebcbc;
+    font-family: 'Great Vibes', cursive;
+  }
+
+  /* 🖼️ GALLERY SECTION */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #850926;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.03);
+  }
+
+  .gallery-overview-block .thumb-box img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+
+  .section-heading {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #fffefe;
+  }
+
+  /* 📱 MOBILE STYLES */
+  @media (max-width: 576px) {
+    .hero-slide-img {
+      height: auto;
+      max-height: 100vh;
+      object-fit: contain;
+    }
+
+    .overlay-quote h1 {
+      font-size: 1.3rem;
+      padding: 0 15px;
+    }
+
+    .overlay-quote p {
+      font-size: 0.9rem;
+    }
+  }
+/* 📜 Clean Quote Styling */
+.quote-bar {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fffefe;
+  margin: 0 auto;
+  max-width: 90%;
+  line-height: 1.4;
+}
+
+.quote-author {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #bebcbc;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .quote-text {
+    font-size: 1.3rem;
+  }
+
+  .quote-author {
+    font-size: 0.95rem;
+  }
+}
+/* ✅ Fancybox fade-in */
+.fancybox__container {
+  animation: fadeIn 0.35s ease-out !important;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+</style>
+</head>
+<body class="bg-dark text-light">
+<!-- 🌐 Reusable Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark border-bottom border-danger">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <span style="font-family: 'Kunstler Script', cursive; color: #8b0808; font-size: 48px;">N</span>
+      <span style="font-family: 'Didact Gothic', sans-serif; color: #cfcfcf; font-size: 20px;">ovaadramen</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="myworld.html">My World</a></li>
+        <li class="nav-item"><a class="nav-link" href="photography.html">Photography</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Spacing fix -->
+<div style="height: 70px;"></div>
+<!-- 🖼️ Hero Slideshow Section with Controls -->
+<section id="photo-carousel" class="position-relative">
+  <div id="carouselHero" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/photography/main/photo1.webp" class="d-block w-100 hero-slide-img" alt="Slide 1">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo2.webp" class="d-block w-100 hero-slide-img" alt="Slide 2">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo3.webp" class="d-block w-100 hero-slide-img" alt="Slide 3">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo4.webp" class="d-block w-100 hero-slide-img" alt="Slide 4">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo5.webp" class="d-block w-100 hero-slide-img" alt="Slide 5">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo6.webp" class="d-block w-100 hero-slide-img" alt="Slide 6">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/photography/main/photo7.webp" class="d-block w-100 hero-slide-img" alt="Slide 7">
+      </div>
+    </div>
+
+    <!-- Slide Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- ✅ Quote placed *below* the slideshow -->
+<div class="quote-bar text-center mt-4 px-3">
+  <h1 class="quote-text">“Photography is the art of freezing a heartbeat in time.”</h1>
+  <p class="quote-author">— Rajiva Mendis —</p>
+</div>
+
+</section>
+
+
+<!-- 📂 Gallery Overview Styled as Per Screenshot -->
+<section class="section-dark">
+  <div class="container">
+    <h2 class="text-center mb-5">Gallery</h2>
+
+    <!-- Section Block Style -->
+    <div class="gallery-overview-block d-flex flex-column gap-5">
+
+      <!-- Section 1: Left Image, Right Text -->
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+        <div class="thumb-box">
+          <img src="assets/images/photography/thumb/pcthumb.webp" class="img-fluid rounded border border-danger" alt="Hotel Events">
+        </div>
+        <div class="text-light" style="max-width: 500px;">
+          <h4 class="text-accent">Professional Stills</h4>
+          <p>
+            From candlelit banquets to quiet hotel rooms, this section captures spaces I worked in, admired, and froze in time.
+            Whether it was during HR duties or off-shift curiosity,every frame shows the story hospitality whispers.
+          </p>
+          <a href="#section-hotel" class="btn btn-outline-resume mt-2">View Gallery</a>
+        </div>
+      </div>
+
+      <!-- Section 2: Right Image, Left Text -->
+      <div class="d-flex flex-column flex-md-row-reverse align-items-center justify-content-center gap-4">
+        <div class="thumb-box">
+          <img src="assets/images/photography/thumb/t_thumb.webp" class="img-fluid rounded border border-danger" alt="Travel">
+        </div>
+        <div class="text-light" style="max-width: 500px;">
+          <h4 class="text-accent">Carried by the Lens</h4>
+          <p>
+            Wherever I travel, I carry my camera. These are glimpses of moments that spoke to me, captured not just for beauty, but for feeling.
+            
+          </p>
+          <a href="#section-travel" class="btn btn-outline-resume mt-2">View Gallery</a>
+        </div>
+      </div>
+
+      <!-- Section 3: Left Image, Right Text -->
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-4">
+        <div class="thumb-box">
+          <img src="assets/images/photography/thumb/portrait_thumb.webp" class="img-fluid rounded border border-danger" alt="Portraits">
+        </div>
+        <div class="text-light" style="max-width: 500px;">
+          <h4 class="text-accent">Stills with Soul</h4>
+          <p>
+            There’s emotion, strength, and quiet stories in every face I’ve captured here.
+            Whether it was laughter shared, tears witnessed, or a moment of stillness — I made sure to carry their beauty as I saw it through the lens.
+            These aren’t just portraits. They’re my gratitude, preserved in light.
+            
+          </p>
+          <a href="#section-portraits" class="btn btn-outline-resume mt-2">View Gallery</a>
+        </div>
+      </div>
+
+      <!-- Section 4: Right Image, Left Text -->
+      <div class="d-flex flex-column flex-md-row-reverse align-items-center justify-content-center gap-4">
+        <div class="thumb-box">
+          <img src="assets/images/photography/thumb/r_thumb.webp" class="img-fluid rounded border border-danger" alt="Minimal Moments">
+        </div>
+        <div class="text-light" style="max-width: 500px;">
+          <h4 class="text-accent">Nothing and Everything</h4>
+          <p>
+            These photos didn’t follow a brief.<br>
+            They weren’t planned or positioned. They were captured because I felt something joy, stillness, sadness, nostalgia... even nonsense.
+            This is where randomness meets emotion, and the irrelevant becomes part of the story.
+          </p>
+          <a href="#section-everyday" class="btn btn-outline-resume mt-2">View Gallery</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 🖼️ SECTION 1: Hotel & Events -->
+<section id="section-hotel" class="section-dark">
+  <div class="container">
+    <h3 class="text-center mb-4 text-accent"> - Professional Stills - </h3>
+    <div class="row g-4">
+
+      <!-- Image 1 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc1.webp" data-fancybox="hotel-gallery" data-caption="Elegance in Every Sip <br><span style='font-style: italic; font-size: 12px; color: #aeaeae'>Brasserie Café – Royal Rose Hotel, Abu Dhabi</span>"data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc1.webp" alt="Hotel 1" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+
+      <!-- Image 2 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc2.webp" data-fancybox="hotel-gallery" data-caption="Classic charm with a golden touch. <br><span style='font-style: italic; font-size: 12px; color: #aeaeae'>Brasserie Café – Royal Rose Hotel, Abu Dhabi</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc2.webp" alt="Hotel 2" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+
+      <!-- Image 3 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc3.webp" data-fancybox="hotel-gallery" data-caption="Service with sincerity, not just a smile. <br><span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Brasserie Café – Royal Rose Hotel, Abu Dhabi</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc3.webp" alt="Hotel 3" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+
+      <!-- Image 4 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc4.webp" data-fancybox="hotel-gallery" data-caption="Where every detail is part of the experience. <br><span style='font-style: italic; font-size: 12px; color: #aeaeae'>Brasserie Café – Royal Rose Hotel, Abu Dhabi</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc4.webp" alt="Hotel 4" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+
+      <!-- Image 5 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc5.webp" data-fancybox="hotel-gallery" data-caption="Indulgence, served chilled. <br><span style='font-style: italic; font-size: 12px; color: #aeaeae'>Brasserie Café – Royal Rose Hotel, Abu Dhabi</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc5.webp" alt="Hotel 5" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <!-- Image 6 -->
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/professional_clicks/pc6.webp" data-fancybox="hotel-gallery" data-caption="Every setting tells a story of celebration. <br><span style='font-style: italic; font-size: 12px; color: #aeaeae'>Banquet Hall – Royal Rose Hotel, Abu Dhabi</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/professional_clicks/pc6.webp" alt="Hotel 6" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+
+      <!-- Add more hotel images here -->
+
+    </div>
+  </div>
+</section>
+<!-- 🖼️ SECTION 2: Travel -->
+<section id="section-travel" class="section-dark">
+  <div class="container">
+    <h3 class="text-center mb-4 text-accent"> - Carried by the Lens - </h3>
+    <div class="row g-4">
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t1.webp" data-fancybox="travel-gallery" 
+            data-caption="Peace Needs No Audience! <br>
+              He stands still, not for the world to admire,
+              but to remind the world to be still.<br>
+              No crown. No throne. Just presence.
+              The kind that silences storms without saying a word.<br>
+              <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Captured in Gangaramaya, Sri Lanka</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t1.webp" alt="Travel 1" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t2.webp" data-fancybox="travel-gallery" 
+            data-caption="The Journey Becomes You! <br>
+              It’s not just a train, it’s a heartbeat on rails. <br>
+              Winding through hills, brushing past clouds and homes. <br>
+              Each bend carries laughter, longing, and silent prayers. <br>
+              <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Captured on the Colombo-Galle Line, Sri Lanka</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t2.webp" alt="Travel 2" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t3.webp" data-fancybox="travel-gallery" 
+          data-caption="The Weight of Silence! <br>
+            No prayers echo here. No footsteps linger. <br>
+            Yet the columns still stand — stubborn, scarred, sacred. <br>
+            A temple once full of voices… now guarded by wind and winter. <br>
+            <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Captured in Garni Temple, Armenia</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t3.webp" alt="Travel 3" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t4.webp" data-fancybox="travel-gallery" 
+            data-caption="Where Even Silence Burns Gold! <br>
+              The mangroves don't move. <br>
+              The sky barely breathes. <br>
+              And yet — the sun bleeds like it's saying goodbye with grace. <br>
+              <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Sunset over Mangroves, Abu Dhabi,UAE</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t4.webp" alt="Travel 4" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t5.webp" data-fancybox="travel-gallery" 
+            data-caption="Above All That Holds You Back !<br>
+              Up here, the world below turns soft and small. <br>
+              Snow swirls like confetti from the sky <br>
+              and the only thing louder than the wind is your heartbeat. <br>
+              This isn’t just a ride. It’s a reminder: You were made for the heights. <br>
+              <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Cable Car, Tsaghkadzor, Armenia</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t5.webp" alt="Travel 5" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t6.webp" data-fancybox="travel-gallery" 
+          data-caption="Stillness Built in Stone !<br>
+            These walls do not preach. <br>
+            They’ve seen centuries of bowed heads and bare feet. <br>
+            Here, silence isn’t emptiness — it’s prayer without sound. <br>
+            <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Jaya Sri Maha Bodhi Temple, Anuradhapura, Sri Lanka</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t6.webp" alt="Travel 6" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t7.webp" data-fancybox="travel-gallery" 
+        data-caption="He Stands, They Soar! <br>
+          Birds rise. The sky opens. <br>
+          And one man — statue or soul — stands motionless in it all. <br>
+          In a world rushing upward, sometimes standing still is the boldest act. <br>
+          <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Cascade Complex, Yerevan, Armenia</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t7.webp" alt="Travel 7" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t8.webp" data-fancybox="travel-gallery" 
+          data-caption="When the Sun Whispers Goodbye !<br>
+            The sky doesn't always bleed in orange. <br>
+            Sometimes, it dims in deep blues and quiet purples — <br>
+            like a goodbye that doesn’t want to be noticed. <br>
+            <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Colombo, Sri Lanka</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t8.webp" alt="Travel 8" class="img-fluid rounded shadow-sm border border-danger" />
+       </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/travel/t9.webp" data-fancybox="travel-gallery" 
+          data-caption="Not All Monuments Stand for You! <br>
+            Some places are built to be admired… but not felt. <br>
+            You stand before the marble — polite, tired, unheard. <br>
+            Let the photo remain. Not to celebrate, but to remember: <br>
+            Even in cold places, you kept your fire. <br>
+            <span style='font-style: italic; font-size: 12px; color: #aeaeae;'>Victoria Memorial, London,UK</span>" data-prevent-animation="true">
+          <img src="assets/images/photography/travel/t9.webp" alt="Travel 9" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- 🖼️ SECTION 3: Portraits -->
+<section id="section-portraits" class="section-dark">
+  <div class="container">
+    <h3 class="text-center mb-4 text-accent"> - Stills with Soul - </h3>
+    <div class="row g-4">
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/portrait/p1.webp" data-fancybox="portrait-gallery" data-caption="Ms. Quen Ilz - Sama Tower,UAE" data-prevent-animation="true">
+          <img src="assets/images/photography/portrait/p1.webp" alt="Portrait 1" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/portrait/p2.webp" data-fancybox="portrait-gallery" data-caption="31st Night,Gala Dinner @ Royal Rose Hotel - 2018" data-prevent-animation="true" >
+          <img src="assets/images/photography/portrait/p2.webp" alt="Portrait 2" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/portrait/p3.webp" data-fancybox="portrait-gallery" data-caption="Friendship Frame - Mr. Mik Mik,UAE" data-prevent-animation="true">
+          <img src="assets/images/photography/portrait/p3.webp" alt="Portrait 3" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/portrait/p4.webp" data-fancybox="portrait-gallery" data-caption="31st Night,Gala Dinner @ Royal Rose Hotel - 2018" data-prevent-animation="true">
+         <img src="assets/images/photography/portrait/p4.webp" alt="Portrait 4" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+       <a href="assets/images/photography/portrait/p5.webp" data-fancybox="portrait-gallery" data-caption=" Ms. Aeryll Canonoy - Heritage Village,UAE." data-prevent-animation="true">
+        <img src="assets/images/photography/portrait/p5.webp" alt="Portrait 5" class="img-fluid rounded shadow-sm border border-danger" />
+       </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/portrait/p6.webp" data-fancybox="portrait-gallery" data-caption="Ms. Aeryll Canonoy - Sama Tower,UAE" data-prevent-animation="true">
+          <img src="assets/images/photography/portrait/p6.webp" alt="Portrait 6" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 🖼️ SECTION 4: Forgotten Frame -->
+<section id="section-everyday" class="section-dark">
+  <div class="container">
+    <h3 class="text-center mb-4 text-accent"> -  Nothing and Everything - </h3>
+    <div class="row g-4">
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r1.webp" data-fancybox="everyday-gallery" 
+          data-caption="Tradition Traded for Currency: 
+              <br> A Sri Lankan betel tray once a symbol of hospitality and culture, now filled with foreign notes.
+              In pursuit of foreign wealth, many leave behind rituals, roots, and identity.<br><br> This image asks: What are we really exchanging?" data-prevent-animation="true">
+          <img src="assets/images/photography/random/r1.webp" alt="Everyday 1" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r2.webp" data-fancybox="everyday-gallery" 
+          data-caption="The Brave Stillness!<br>
+              A dragonfly, aware of a looming presence, remains poised, not out of ignorance, but curiosity.<br>
+              Like us, it senses the risk... but stays a moment longer, just to see what might unfold.<br>
+              Because sometimes, curiosity dares louder than caution." data-prevent-animation="true">
+          <img src="assets/images/photography/random/r2.webp" alt="Everyday 2" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r3.webp" data-fancybox="everyday-gallery" 
+          data-caption="Still Standing!<br>
+            Faded, dusty, and forgotten, this plastic rose hasn’t lost its place.<br>
+            It was never real, yet it remains holding its pose, fulfilling its purpose.<br>
+            Just like us...<br> when life wears us down, we still show up, because someone, somewhere, still needs us." data-prevent-animation="true">
+          <img src="assets/images/photography/random/r3.webp" alt="Everyday 3" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r4.webp" data-fancybox="everyday-gallery" 
+          data-caption="One Basket, Many Flavors!<br>
+            Different shapes. Different colors. Different tastes.<br>
+            Yet together, they serve, they nourish, they belong.
+            Like us humans, each crafted with a unique purpose.<br><br>
+            Funny thing? I only saw fruits… until they started preaching to me!" data-prevent-animation="true">
+          <img src="assets/images/photography/random/r4.webp" alt="Everyday 4" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r5.webp" data-fancybox="everyday-gallery" 
+          data-caption="Before the Swipe, There Was a Rose!<br>
+            A little boy leans in, not with smooth lines, but with sincerity.<br>
+            A flower in hand, a heart full of hope, and love untouched by screens.<br>
+            This ornament reminds us:<br> before “likes” and DMs, love began with a single, simple gesture!" data-prevent-animation="true">
+          <img src="assets/images/photography/random/r5.webp" alt="Everyday 5" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+      <div class="col-md-4 col-6">
+        <a href="assets/images/photography/random/r6.webp" data-fancybox="everyday-gallery" 
+          data-caption="The Chandelier Truth!<br>
+            From afar, a masterpiece of warmth and grandeur.<br>
+            But look closer, and you’ll see: it’s a symphony of many small lights.<br>
+            One bulb goes out, and the balance falters.
+            Just like us, our journey shines not from solo brilliance,
+            but from every soul who lit us along the way.<br>
+            When even one dims… the harmony feels it."data-prevent-animation="true">
+          <img src="assets/images/photography/random/r6.webp" alt="Everyday 6" class="img-fluid rounded shadow-sm border border-danger" />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-light text-center py-3 border-top border-danger">
+  <small>All images © 2025 Novaadramen <br>Captured by Rajiva Mendis.</small>
+</footer>
+<!-- Bootstrap JS (required for carousel) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Fancybox JS -->
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+<script>
+  Fancybox.bind("[data-fancybox]", {
+    animated: false,
+    showClass: false,
+    hideClass: false,
+    Images: {
+      zoom: false,
+      pan: false,
+    },
+    dragToClose: false,
+    Thumbs: {
+      autoStart: false
+    },
+    Toolbar: {
+      display: [
+        { id: "counter", position: "center" },
+        "zoom",
+        "fullscreen",
+        "close"
+      ]
+    }
+  });
+</script>
+
+</body>
+</html>
