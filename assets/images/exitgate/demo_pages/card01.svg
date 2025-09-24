@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="604.6889mm"
+   height="798.10791mm"
+   viewBox="0 0 604.6889 798.10791"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3">
+      <stop
+         style="stop-color:#fff7ee;stop-opacity:1;"
+         offset="0"
+         id="stop4" />
+      <stop
+         style="stop-color:#fdf7f0;stop-opacity:0;"
+         offset="1"
+         id="stop5" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient2">
+      <stop
+         style="stop-color:#1f1f1f;stop-opacity:1;"
+         offset="0"
+         id="stop2" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop3" />
+    </linearGradient>
+    <radialGradient
+       xlink:href="#linearGradient2"
+       id="radialGradient3"
+       cx="300.30847"
+       cy="400.07196"
+       fx="300.30847"
+       fy="400.07196"
+       r="302.34445"
+       gradientTransform="matrix(1,0,0,1.3198653,-2.0359896,-126.95115)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#linearGradient3"
+       id="linearGradient5"
+       x1="544.83307"
+       y1="244.31876"
+       x2="93.449699"
+       y2="244.31877"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-2.0359896,1.0179949)" />
+    <radialGradient
+       xlink:href="#linearGradient2"
+       id="radialGradient2"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3198653,-2.0359896,-126.95115)"
+       cx="300.30847"
+       cy="400.07196"
+       fx="300.30847"
+       fy="400.07196"
+       r="302.34445" />
+    <radialGradient
+       xlink:href="#linearGradient2"
+       id="radialGradient4"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3198653,-2.0359896,-126.95115)"
+       cx="300.30847"
+       cy="400.07196"
+       fx="300.30847"
+       fy="400.07196"
+       r="302.34445" />
+    <radialGradient
+       xlink:href="#linearGradient2"
+       id="radialGradient5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.3198653,-2.0359896,-126.95115)"
+       cx="300.30847"
+       cy="400.07196"
+       fx="300.30847"
+       fy="400.07196"
+       r="302.34445" />
+  </defs>
+  <g
+     id="layer1"
+     style="display:inline;fill:#0169dc;fill-opacity:1"
+     transform="translate(2.0359896,-1.0179949)">
+    <rect
+       style="fill:url(#radialGradient2);stroke-width:0.385209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dashoffset:206.966;paint-order:stroke fill markers"
+       id="rect2"
+       width="604.6889"
+       height="798.10791"
+       x="-2.0359895"
+       y="1.0179949" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#7c4a0c;stroke-width:8.98287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect7"
+       width="542.59125"
+       height="751.28015"
+       x="33.59383"
+       y="25.449871" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:27.5342px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:start;letter-spacing:0.263871px;word-spacing:0.0229452px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#fa8d00;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="300.83698"
+       y="403.5452"
+       id="text8"><tspan
+         id="tspan8"
+         style="font-size:27.5342px;line-height:1.3;text-align:center;text-anchor:middle;fill:#fa8d00;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-dasharray:none"
+         x="300.83698"
+         y="403.5452"><tspan
+   style="font-size:55.0686px;fill:#ffffff;fill-opacity:1;stroke-width:5.87053"
+   id="tspan16">Exit feedback</tspan> <tspan
+   style="fill:#4c4c4c;fill-opacity:1"
+   id="tspan18">is</tspan> </tspan><tspan
+         style="font-size:27.5342px;line-height:1.3;text-align:center;text-anchor:middle;fill:#fa8d00;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-dasharray:none"
+         x="300.83698"
+         y="475.13437"
+         id="tspan13"><tspan
+   style="fill:#4c4c4c;fill-opacity:1"
+   id="tspan19">collected</tspan> <tspan
+   style="font-size:55.0686px;fill:#ffffff;fill-opacity:1;stroke-width:5.87053"
+   id="tspan14">privately</tspan><tspan
+   style="fill:#ffffff;fill-opacity:1;stroke-width:5.87053"
+   id="tspan17">,</tspan> </tspan><tspan
+         style="font-size:27.5342px;line-height:1.3;text-align:center;text-anchor:middle;fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-dasharray:none"
+         x="300.83698"
+         y="521.03741"
+         id="tspan10">ensuring staff honesty </tspan><tspan
+         style="font-size:27.5342px;line-height:1.3;text-align:center;text-anchor:middle;fill:#4c4c4c;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-dasharray:none"
+         x="300.83698"
+         y="556.83185"
+         id="tspan11">and </tspan><tspan
+         style="font-size:27.5342px;line-height:1.3;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.87053;stroke-dasharray:none"
+         x="300.96893"
+         y="618.3125"
+         id="tspan12"><tspan
+   style="font-size:55.0686px;fill:#ffffff;fill-opacity:1;stroke-width:5.87053"
+   id="tspan15">management trust</tspan>.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:66.5407px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:center;letter-spacing:0.235452px;word-spacing:0.020474px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:8.24114;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="508.68274"
+       y="208.22942"
+       id="text129"><tspan
+         id="tspan129"
+         style="stroke-width:8.24114"
+         x="508.80048"
+         y="208.22942">🔒</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:78.2761px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:center;letter-spacing:0.276977px;word-spacing:0.024085px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#d4d4d4;fill-opacity:1;stroke:none;stroke-width:3.7135;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="282.09567"
+       y="117.92075"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#d4d4d4;fill-opacity:1;stroke:none;stroke-width:3.7135;stroke-dasharray:none"
+         x="282.09567"
+         y="117.92075">Confidential </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#d4d4d4;fill-opacity:1;stroke:none;stroke-width:3.7135;stroke-dasharray:none"
+         x="282.23416"
+         y="219.67969"
+         id="tspan2">Interviews</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:url(#linearGradient5);stroke-width:2.44766;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 543.60923,244.31876 c -149.64523,0 -299.29047,0 -448.935711,0"
+       id="path2" />
+  </g>
+  <g
+     id="g34"
+     style="display:none;fill:#0169dc;fill-opacity:1"
+     transform="translate(2.0359896,-1.0179949)">
+    <rect
+       style="fill:url(#radialGradient4);stroke-width:0.385209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dashoffset:206.966;paint-order:stroke fill markers"
+       id="rect20"
+       width="604.6889"
+       height="798.10791"
+       x="-2.0359895"
+       y="1.0179949" />
+    <text
+       xml:space="preserve"
+       style="font-size:77.9839px;line-height:0.9;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script';text-align:start;letter-spacing:0.280255px;word-spacing:0.02437px;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#0054fa;fill-opacity:1;stroke:none;stroke-width:9.80932;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="74.421089"
+       y="113.22609"
+       id="text23"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="113.22609"
+         id="tspan23">Turnover </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="191.23007"
+         id="tspan37">  Dashboard</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#cf7d14;stroke-width:8.98287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect23"
+       width="542.59125"
+       height="751.28015"
+       x="33.59383"
+       y="25.449871" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.0969px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:start;letter-spacing:0.284626px;word-spacing:0.02475px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="310.40259"
+       y="306.39191"
+       id="text34"><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="306.39191"
+         id="tspan34"><tspan
+   style="font-size:47.3405px;fill:#f9faff;fill-opacity:1;stroke-width:6.3323"
+   id="tspan54">Exit data</tspan> <tspan
+   style="font-size:34.9591px;fill:#0028ae;fill-opacity:1;stroke-width:6.3323"
+   id="tspan49">is transformed</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="362.11005"
+         id="tspan41"><tspan
+   style="font-size:34.9591px;fill:#0028ae;fill-opacity:1;stroke-width:6.3323"
+   id="tspan50">into clear,</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="421.36053"
+         id="tspan46"><tspan
+   style="font-size:47.3405px;fill:#fefeff;fill-opacity:1;stroke-width:6.3323"
+   id="tspan55">visual dashboards</tspan><tspan
+   style="fill:#fefeff;fill-opacity:1;stroke-width:6.3323"
+   id="tspan57">,</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="477.07867"
+         id="tspan42"><tspan
+   style="font-size:34.9591px;fill:#0028ae;fill-opacity:1;stroke-width:6.3323"
+   id="tspan51">helping</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="530.50464"
+         id="tspan47"><tspan
+   style="fill:#ffffff;fill-opacity:1;stroke-width:6.3323"
+   id="tspan58">managers understand</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="583.9306"
+         id="tspan43"><tspan
+   style="font-size:34.9591px;fill:#0028ae;fill-opacity:1;stroke-width:6.3323"
+   id="tspan52">the real reasons behind</tspan> </tspan><tspan
+         style="font-size:41.0969px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.40259"
+         y="643.18109"
+         id="tspan44"><tspan
+   style="font-size:47.3405px;fill:#f3f5fb;fill-opacity:1;stroke-width:6.3323"
+   id="tspan56">staff turnover</tspan> </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="310.54489"
+         y="698.89923"
+         id="tspan45">at a glance.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:60.4582px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:center;letter-spacing:0.213929px;word-spacing:0.0186025px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:7.48781;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="447.51028"
+       y="120.42358"
+       id="text96"><tspan
+         id="tspan96"
+         style="stroke-width:7.48781"
+         x="447.61725"
+         y="120.42358">📊</tspan></text>
+    <path
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.38995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 85.511568,232.61182 c 113.575542,-7.00584 236.876582,-14.6116 315.583902,-17.78799 28.31447,-1.14268 74.55916,-3.65327 102.4827,0.99187 17.13359,2.85022 19.49447,7.68439 21.70716,12.21514"
+       id="path96"
+       transform="matrix(0.94791667,0,0,0.55620709,47.209512,80.835588)" />
+  </g>
+  <g
+     id="g77"
+     style="display:none;fill:#0169dc;fill-opacity:1"
+     transform="translate(2.0359896,-1.0179949)">
+    <rect
+       style="fill:url(#radialGradient5);stroke-width:0.385209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dashoffset:206.966;paint-order:stroke fill markers"
+       id="rect59"
+       width="604.6889"
+       height="798.10791"
+       x="-2.0359895"
+       y="1.0179949" />
+    <text
+       xml:space="preserve"
+       style="font-size:77.9839px;line-height:0.9;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script';text-align:start;letter-spacing:0.280255px;word-spacing:0.02437px;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#0054fa;fill-opacity:1;stroke:none;stroke-width:9.80932;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="74.421089"
+       y="113.22609"
+       id="text60"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="113.22609"
+         id="tspan60">Retention </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="191.23007"
+         id="tspan78">Insights</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#cf7d14;stroke-width:8.98287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect60"
+       width="542.59125"
+       height="751.28015"
+       x="33.59383"
+       y="25.449871" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.0969px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:start;letter-spacing:0.284626px;word-spacing:0.02475px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="305.31262"
+       y="327.76981"
+       id="text77"><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="327.76981"
+         id="tspan77"><tspan
+   style="font-size:51.5938px;fill:#ffffff;fill-opacity:1"
+   id="tspan91">Spot</tspan> early warning signs, </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="394.84174"
+         id="tspan86"><tspan
+   style="font-size:51.5938px;fill:#ffffff;fill-opacity:1"
+   id="tspan92">identify patterns</tspan>, </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="452.1214"
+         id="tspan87">and take proactive steps </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="505.54736"
+         id="tspan88">to </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="568.76562"
+         id="tspan94"><tspan
+   style="font-size:51.5938px;fill:#f5f7ff;fill-opacity:1"
+   id="tspan95">reduce resignations</tspan> </tspan><tspan
+         style="font-size:34.9591px;line-height:1.3;text-align:center;text-anchor:middle;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="626.04529"
+         id="tspan89">and strengthen </tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.45493"
+         y="689.26355"
+         id="tspan90">employee loyalty.</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:98.8533px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:center;letter-spacing:0.349789px;word-spacing:0.0304164px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:12.2431;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="398.64587"
+       y="218.11617"
+       id="text79"><tspan
+         id="tspan79"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:12.2431"
+         x="398.82077"
+         y="218.11617">💡</tspan></text>
+    <path
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.38995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 103.83547,232.10282 c 47.3448,-17.94183 97.77264,-18.32391 147.60925,-18.32391 40.04114,0 80.08226,0 120.1234,0"
+       id="path95" />
+  </g>
+  <g
+     id="g109"
+     style="display:none;fill:#0169dc;fill-opacity:1"
+     transform="translate(2.0359896,-1.0179949)">
+    <rect
+       style="fill:url(#radialGradient3);stroke-width:0.385209;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dashoffset:206.966;paint-order:stroke fill markers"
+       id="rect97"
+       width="604.6889"
+       height="798.10791"
+       x="-2.0359895"
+       y="1.0179949" />
+    <text
+       xml:space="preserve"
+       style="font-size:77.9839px;line-height:0.9;font-family:'Freestyle Script';-inkscape-font-specification:'Freestyle Script';text-align:start;letter-spacing:0.280255px;word-spacing:0.02437px;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#0054fa;fill-opacity:1;stroke:none;stroke-width:9.80932;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="74.421089"
+       y="113.22609"
+       id="text98"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="113.22609"
+         id="tspan98">Analytics </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:77.9839px;line-height:0.9;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';fill:#0028ae;fill-opacity:1;stroke-width:9.80932"
+         x="74.421089"
+         y="191.23007"
+         id="tspan110">     Reports</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#cf7d14;stroke-width:8.98287;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect98"
+       width="542.59125"
+       height="751.28015"
+       x="33.59383"
+       y="25.449871" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.0969px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:start;letter-spacing:0.284626px;word-spacing:0.02475px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#0028ae;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="305.31262"
+       y="327.76981"
+       id="text108"><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="327.76981"
+         id="tspan108">Export-ready <tspan
+   style="font-size:38.1px;fill:#003090;fill-opacity:1"
+   id="tspan123">reports</tspan><tspan
+   style="fill:#003090;fill-opacity:1"
+   id="tspan124"> </tspan></tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="394.84174"
+         id="tspan120"><tspan
+   style="font-size:38.1px;fill:#003090;fill-opacity:1"
+   id="tspan125">designed for HR leaders</tspan> </tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="461.91367"
+         id="tspan121"><tspan
+   style="font-size:38.1px;fill:#003090;fill-opacity:1"
+   id="tspan126">and executives,</tspan> </tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="528.9856"
+         id="tspan117">ensuring decisions </tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="596.05756"
+         id="tspan122"><tspan
+   style="font-size:38.1px;fill:#003090;fill-opacity:1"
+   id="tspan127">are backed by</tspan> </tspan><tspan
+         style="font-size:51.5938px;line-height:1.3;text-align:center;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.31262"
+         y="663.12952"
+         id="tspan118">accurate data </tspan><tspan
+         style="font-size:38.1px;line-height:1.3;text-align:center;text-anchor:middle;fill:#003090;fill-opacity:1;stroke:none;stroke-width:6.3323;stroke-dasharray:none"
+         x="305.45493"
+         y="730.20142"
+         id="tspan119">and actionable <tspan
+   style="font-size:51.5938px;fill:#ffffff;fill-opacity:1"
+   id="tspan128">insights.</tspan></tspan></text>
+    <path
+       style="fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.38995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 103.83547,232.10282 c 47.3448,-17.94183 97.77264,-18.32391 147.60925,-18.32391 40.04114,0 80.08226,0 120.1234,0"
+       id="path109" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:51.5938px;line-height:1.3;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';text-align:center;letter-spacing:0.182563px;word-spacing:0.015875px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#f7f7f7;fill-opacity:1;stroke:none;stroke-width:6.38995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.1;stroke-dasharray:none;stroke-dashoffset:206.966;stroke-opacity:1;paint-order:stroke fill markers"
+       x="156.92317"
+       y="186.43625"
+       id="text111"><tspan
+         id="tspan111"
+         style="stroke-width:6.38995"
+         x="157.01445"
+         y="186.43625">📑</tspan></text>
+  </g>
+</svg>

@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
 
 </head>
 
@@ -207,68 +209,135 @@
   </div>
 </section>
 -->
-    <!-- Projects Placeholder -->
-    <section id="projects" class="py-5 bg-dark text-light">
-  <div class="container text-center">
-    <h2 class="mb-4">Projects</h2>
+<!-- Projects Placeholder -->
 
-    <!-- Project Teaser -->
-    <div class="mb-3">
-      <p style="font-size: 1.1rem;">🚧 <em>In the making...</em></p>
-      <h4 class="text-accent fw-bold">SultanGate Virtual HR Induction</h4>
-      <p class="mt-3" style="max-width: 700px; margin: 0 auto;">
-        A digital onboarding portal tailored for the luxury hospitality sector. 
-        Built as a prototype for <strong>The Celestial Sultanate Hotel</strong>, this system delivers personalized video inductions, HR-led onboarding sessions, and automated quiz tracking — all from one sleek dashboard.
-      </p>
+  <!--PAeryllMate-->
+ <section id="projects" class="py-15 bg-projects">
+   <div id="project-burst" class="project-burst" data-text="PROJECTS"></div>
+   <div class="text" style="font-size:10px;color: #9a9a9a; text-align: center;margin-top: -50px;">by 
+     <img src="/assets/images/paeryllmate/logo/nova_logo.png" alt="Novaadramen Logo" style="width: auto; height: 60px; align-items: center;margin-left: -40px;">
+   </div>
+ </section>
 
-      <!-- Optional Countdown (simple placeholder for now) -->
-      <div id="countdown" class="mt-3" style="font-size: 1rem; color: #cfcfcf;"></div>
+ <section id="single-project" class="single-project">
+   <div class="sp-wrap">
+     <h1 class="brand">
+       <img src="/assets/images/paeryllmate/logo/logo.png" alt="PAeryllMate Logo" class="brand-logo">
+       <span class="fw-bold">P</span><span class="accent">Aeryll</span><span class="fw-bold">Mate</span>
+     </h1>
+     <p class="tagline" style=" margin-left: 55px;">Your shifts, your pay, just simplified.</p>
+   </div>
+   <div style="height: 30px;"></div> <!---Spacer-->
+   <!-- Images of Product -->
+   <div class="project-screens mt-4">
+     <img src="assets/images/paeryllmate/demo_pages/login.webp" alt="PAeryllMate Login Page" class="app-screen">
+     <img src="assets/images/paeryllmate/demo_pages/dash_insighthub.webp" alt="PAeryllMate Dashboard" class="app-screen">
+     <img src="assets/images/paeryllmate/demo_pages/rota_s_view.webp" alt="PAeryllMate Rota View" class="app-screen">
+     <img src="assets/images/paeryllmate/demo_pages/salary_view.webp" alt="PAeryllMate Salary Calculator" class="app-screen">
+   </div>
+   <div class="mb-3" style="margin-top: 10px;">
+     <p class="mt-3" style="max-width: 700px;">
+       PaeryllMate is a prototype rota-driven payroll tool, originally tailored for a real-world case but engineered to be future-proof. <br>
+       With only minor adjustments, it can be adapted to any shift-based workplace, streamlining pay calculations and reducing HR errors.<br><br>
+       Click below to learn more.
+     </p>
+     <a href="paeryllmate.html" class="btn btn-outline-resume mt-3">Explore <strong>PAeryllMate<strong></a>
+   </div>
+ </section>
+ 
+ <!--SultanGate-->
+ <section id="single-project" class="single-project">
+   <div class="sp-wrap">
+     <h1 class="brand">
+       <img src="/assets/images/SultanGate/logo/logo.svg" alt="SultanGate Logo" class="brand-logo">
+       <span class="font-sultangate" style="margin-left: 8px;">SultanGate</span>
+     </h1>
+     <p class="tagline" style=" margin-left: 115px; color: rgb(158, 135, 5);">Virtual HR Induction Portal</p>
+   </div>
+   <div style="height: 20px;">
+     <p style="font-size: 0.9rem; color: #9a9a9a;">🚧 <em>In the making...</em></p>
+   </div> <!---Spacer-->
+   <!-- Images of Product -->
+   <div class="project-screens mt-4">
+     <img src="assets/images/SultanGate/demo_pages/login.webp" alt="Login Page" class="app-screen-sg">
+     <img src="assets/images/SultanGate/demo_pages/dashboard.webp" alt="Dashboard" class="app-screen-sg">
+     <img src="assets/images/SultanGate/demo_pages/registration.webp" alt="registration" class="app-screen-sg">
+     <img src="assets/images/SultanGate/demo_pages/induction.webp" alt="Induction" class="app-screen-sg">
+   </div>
+   <div class="mb-3" style="margin-top: 10px;">
+     <p class="mt-3" style="max-width: 700px;">
+       A digital onboarding portal tailored for the luxury hospitality sector. 
+       Built as a prototype for <span style="color: #c78d0f;">The Celestial Sultanate Hotel</span>, this system delivers personalized video inductions, HR-led onboarding sessions, and automated quiz tracking all from one sleek dashboard.
+       <br><br>Click below to learn more.
+     </p>
+     <a href="sultangate.html" class="btn btn-sg-outline-resume mt-3">Experience Onboarding</a>
+     <div id="countdown" class="mt-3" style="font-size: 1rem; color: #916302;"></div>
+   </div>
+ </section>
+ 
+ 
+ <!--ExitGate-->
+ <section id="single-project" class="single-project">
+   <div class="sp-wrap">
+     <h1 class="brand">
+       <img src="/assets/images/exitgate/logo/eg_logo.svg" alt="ExitGate Logo" class="brand-logo">
+       <span class="font-exitgate" style="margin-left: 6px;">Exit<span style="color: rgb(255, 255, 255);font-size: 25px;">GATE</span></span>
+     </h1>
+     <p class="tagline" style=" margin-left: 155px; color: rgb(160, 72, 32);">Virtual Exit Interview Portal</p>
+   </div>
+   <div style="height: 20px;">
+     <p style="font-size: 0.9rem; color: #9a9a9a;">🚧 <em>Proposed...</em></p>
+   </div> <!---Spacer-->
+   <!-- Images of Product -->
+   <div class="project-screens mt-4">
+     <img src="assets/images/exitgate/demo_pages/card01.svg" alt="card01" class="app-screen-eg">
+     <img src="assets/images/exitgate/demo_pages/card02.svg" alt="card02" class="app-screen-eg">
+     <img src="assets/images/exitgate/demo_pages/card03.svg" alt="card03" class="app-screen-eg">
+     <img src="assets/images/exitgate/demo_pages/card04.svg" alt="card04" class="app-screen-eg">
+   </div>
+   <div class="mb-3" style="margin-top: 10px;">
+     <p class="mt-3" style="max-width: 700px;">
+       A digital exit interview and analytics platform tailored for the hospitality sector. <br>
+       Built as a prototype for <span style="color: #b4851e;">The Celestial Sultanate Hotel</span>, this system collects confidential responses from resigned or terminated staff and visualizes the reasons behind exits through a dedicated dashboard. 
+       <br>It empowers management to measure staff turnover trends and take proactive steps toward retention and workplace improvement.
+       <br><br>Click below to learn more.
+     </p>
+     <a href="exitgate.html" class="btn btn-eg-outline-resume mt-3">Understand Exit Insights</a>
+   </div>
+ </section>
+ 
+ <!--Polisense AI-->
+ <section id="single-project" class="single-project">
+   <div class="sp-wrap">
+     <h1 class="brand">
+       <img src="/assets/images/polisenseAI/logo/poli_logo.svg" alt="polisense Logo" class="brand-logo">
+       <span class="font-exitgate" style="margin-left: 6px;">PoliSense AI</span>
+     </h1>
+     <p class="tagline" style=" margin-left: 155px; color: rgb(5, 128, 21);">Smart AI Assistant for Policy-Based HR Reasoning</p>
+   </div>
+   <div style="height: 20px;">
+     <p style="font-size: 0.9rem; color: #9a9a9a;">💡 <em>Concept in Development</em></p>
+   </div> <!---Spacer-->
+   <!-- Images of Product -->
+   <div class="project-screens mt-4">
+     <video autoplay loop muted playsinline style="width:640px; height:auto; margin:auto; display:block; border-radius:8px;">
+       <source src="assets/images/polisenseAI/demo_pages/poli_breath.mp4" type="video/mp4">
+       Your browser does not support the video tag.
+     </video>
+   </div>
+   <div class="mb-3" style="margin-top: 10px;">
+     <p class="mt-3" style="max-width: 700px;">
+       A visionary AI-powered assistant designed to interpret HR policies, labor laws, and global compliance frameworks. <br><br>
+       Proposed as a virtual support tool for HR Managers in the hospitality sector, PoliSense aims to proactively identify workplace concerns, suggest appropriate responses, and guide Managers through legally sound, culturally aligned decision-making steps.
+       <br><br>
+       *This is a conceptual tool in early planning. Development will begin following completion of core HR systems.
+     </p>
+     <a href="polisense.html" class="btn btn-ps-outline-resume mt-3">Explore Future Plans</a>
+   </div>
+ </section>
 
-      <!-- Learn More Button -->
-      <a href="sultangate.html" class="btn btn-outline-resume mt-3">Learn More</a>
-    </div>
-    <div class="mb-3">
-  <p style="font-size: 1.1rem;">🚧 <em>Proposed</em></p> 
-
-  <h4 class="text-accent fw-bold">ExitGate HR — Virtual Exit Interview & Turnover Dashboard</h4> 
-
-  <p class="mt-3" style="max-width: 700px; margin: 0 auto;">
-    A digital exit interview and analytics platform tailored for the hospitality sector. 
-    Built as a prototype for <strong>The Celestial Sultanate Hotel*</strong>, this system collects confidential responses from resigned or terminated staff and visualizes the reasons behind exits through a dedicated dashboard. 
-    It empowers management to measure staff turnover trends and take proactive steps toward retention and workplace improvement.
-  </p>
-
-  <!-- Disclaimer -->
-  <p style="font-size: 0.75rem; color: #9a9a9a; max-width: 700px; margin: 10px auto 0;">
-    *The Celestial Sultanate Hotel is a fictional property created for project demonstration purposes only.
-  </p>
-
-  <!-- Learn More Button -->
-  <a href="exitgate.html" class="btn btn-outline-resume mt-3">Learn More</a>
-  </div>
-   <div class="mb-3">
-  <p style="font-size: 1.1rem;">💡 <em>Concept in Development</em></p> 
-
-  <h4 class="text-accent fw-bold">PoliSense AI – Smart AI Assistant for Policy-Based HR Reasoning</h4> 
-
-  <p class="mt-3" style="max-width: 700px; margin: 0 auto;">
-    A visionary AI-powered assistant designed to interpret HR policies, labor laws, and global compliance frameworks. 
-    Proposed as a virtual support tool for HR Managers in the hospitality sector, PoliSense aims to proactively identify workplace concerns, suggest appropriate responses, and guide Managers through legally sound, culturally aligned decision-making steps.
-  </p>
-
-  <p style="font-size: 0.75rem; color: #9a9a9a; max-width: 700px; margin: 10px auto 0;">
-    *This is a conceptual tool in early planning. Development will begin following completion of core HR systems.
-  </p>
-
-  <a href="polisense.html" class="btn btn-outline-resume mt-3">Learn More</a>
-</div>
-
-
-  </div>
-</section>
-
-    <!-- Contact Section -->
-    <section id="contact" class="py-5">
+<!-- Contact Section -->
+<section id="contact" class="py-5">
   <div class="container">
     <h2 class="text-center mb-4">Contact</h2>
 
@@ -301,10 +370,9 @@
       &copy; 2025 Novaadramen Digital. All rights reserved.
     </footer>
 
-  </div> <!-- End of Main Content -->
 
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script>
   const titles = [
     "Human Resources Professional",
@@ -337,7 +405,7 @@
 </script>
 <script>
   // Countdown for SultanGate
-  const targetDate = new Date("2025-08-22T00:00:00").getTime(); // Adjust as needed
+  const targetDate = new Date("2025-10-15T00:00:00").getTime(); // Adjust as needed
   const countdown = document.getElementById("countdown");
 
   function updateCountdown() {
@@ -373,5 +441,163 @@
     }
   };
 </script>
+<script>
+(() => {
+  const el = document.getElementById('project-burst');
+  const text = (el.dataset.text || 'PROJECTS').toUpperCase();
+
+  // Brand colors
+  const COLOR_FILL = '#fffefe';
+  const COLOR_ACC  = '#850926';
+
+  // Pixel grid & animation
+  const DOT = 1;           // square size (px)
+  const GAP = 1;           // grid step (px)
+  const SCATTER_DIST = 14; // how far squares fly
+  const REFORM_SPEED = 0.1;
+  const SCATTER_SPEED = 6;
+
+  // Setup canvases
+  const c = document.createElement('canvas');
+  const ctx = c.getContext('2d');
+  el.appendChild(c);
+
+  const off = document.createElement('canvas');
+  const octx = off.getContext('2d');
+
+  let dots = [];       // {x,y,ox,oy,tx,ty,vx,vy,color}
+  let width, height, scale;
+  let animId = 0;
+  let hovering = false;
+
+  function fit() {
+    // Size to element
+    const rect = el.getBoundingClientRect();
+    width = c.width = off.width  = Math.floor(rect.width);
+    height= c.height= off.height = Math.floor(rect.height);
+
+    // Pick a font size that fills width nicely
+    const base = Math.min(width, height);
+    const fontSize = Math.floor(base * 0.46); // tweak if needed
+    octx.clearRect(0,0,off.width,off.height);
+    octx.fillStyle = '#fff';
+    octx.textAlign = 'center';
+    octx.textBaseline = 'middle';
+    octx.font = `900 ${fontSize}px Poppins, Arial, sans-serif`;
+
+    // Centered text render
+    octx.fillText(text, width/2, height/2);
+
+    // Sample pixels → build squares
+    const { data } = octx.getImageData(0,0,width,height);
+    dots = [];
+    for (let y = 0; y < height; y += GAP) {
+      for (let x = 0; x < width; x += GAP) {
+        const i = (y*width + x) * 4 + 3; // alpha channel
+        if (data[i] > 120) {
+          const color = ((x+y) % 20 === 0) ? COLOR_ACC : COLOR_FILL; // sprinkle accent
+          dots.push({
+            x, y,               // current position (will be animated)
+            ox: x, oy: y,       // original (text shape)
+            tx: x, ty: y,       // target
+            vx: 0, vy: 0,
+            color
+          });
+        }
+      }
+    }
+  }
+
+  function scatter(mx, my) {
+    // Randomize target around center or mouse point
+    const cx = mx ?? width/2;
+    const cy = my ?? height/2;
+    hovering = true;
+    dots.forEach(p => {
+      const ang = Math.atan2(p.oy - cy, p.ox - cx) + (Math.random() - 0.5) * 0.8;
+      const dist = SCATTER_DIST * (0.4 + Math.random());
+      p.tx = p.ox + Math.cos(ang) * dist;
+      p.ty = p.oy + Math.sin(ang) * dist;
+      // give a kick
+      p.vx = (p.tx - p.x) / SCATTER_SPEED;
+      p.vy = (p.ty - p.y) / SCATTER_SPEED;
+    });
+  }
+
+  function reform() {
+    hovering = false;
+    dots.forEach(p => { p.tx = p.ox; p.ty = p.oy; });
+  }
+  // --- Touch support (tap/drag to scatter, lift to reform) ---
+  const isTouch = ('ontouchstart' in window) || navigator.maxTouchPoints > 0;
+  
+  function touchPoint(e){
+    const t = e.touches && e.touches[0];
+    if (!t) return null;
+    const r = el.getBoundingClientRect();
+    return { x: t.clientX - r.left, y: t.clientY - r.top };
+  }
+  
+  if (isTouch) {
+    el.addEventListener('touchstart', (e) => {
+      const p = touchPoint(e); if (!p) return;
+      scatter(p.x, p.y);
+    }, { passive: true });
+  
+    el.addEventListener('touchmove', (e) => {
+      const p = touchPoint(e); if (!p) return;
+      scatter(p.x, p.y); // follow finger
+    }, { passive: true });
+  
+    el.addEventListener('touchend', reform, { passive: true });
+  }
+  function tick() {
+    ctx.clearRect(0,0,width,height);
+    for (const p of dots) {
+      // ease towards target
+      p.vx += (p.tx - p.x) * (hovering ? 0.02 : REFORM_SPEED);
+      p.vy += (p.ty - p.y) * (hovering ? 0.02 : REFORM_SPEED);
+      p.vx *= hovering ? 0.86 : 0.70;
+      p.vy *= hovering ? 0.86 : 0.70;
+      p.x += p.vx;
+      p.y += p.vy;
+
+      ctx.fillStyle = p.color;
+      ctx.fillRect(p.x|0, p.y|0, DOT, DOT);
+    }
+    animId = requestAnimationFrame(tick);
+  }
+
+  // Resize + bootstrap
+  const ro = new ResizeObserver(() => { fit(); });
+  ro.observe(el);
+  fit();
+  tick();
+
+  // Interactions
+  el.addEventListener('mouseenter', (e) => {
+    const r = el.getBoundingClientRect();
+    scatter(e.clientX - r.left, e.clientY - r.top);
+  });
+  el.addEventListener('mousemove', (e) => {
+    if (!hovering) return;
+    const r = el.getBoundingClientRect();
+    scatter(e.clientX - r.left, e.clientY - r.top); // follow cursor gently
+  });
+  el.addEventListener('mouseleave', reform);
+
+  // Reduce motion respects user preference
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.removeEventListener('mouseenter', scatter);
+    el.removeEventListener('mousemove', scatter);
+  }
+  // Pause animation when tab is hidden (battery friendly)
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) cancelAnimationFrame(animId);
+    else animId = requestAnimationFrame(tick);
+  });
+})();
+</script>
+
 </body>
 </html>
