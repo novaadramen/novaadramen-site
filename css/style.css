@@ -74,6 +74,20 @@ section {
   color: var(--text-light);
   text-decoration: none;
 }
+/* visit Button-SG */
+.btn-outline-visit-SG {
+  border: 1.5px solid #08235f;
+  color: var(--text-light);
+  background-color: transparent;
+  transition: all 0.3s ease;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+.btn-outline-visit-SG:hover {
+  background-color: #0a3081;
+  color: var(--text-light);
+  text-decoration: none;
+}
 /* Navbar */
 .navbar {
   background-color: var(--main-bg);
