@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core -->
+  <url>
+    <loc>https://www.novaadramen.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/about-novaadramen.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Primary Pages -->
+  <url>
+    <loc>https://www.novaadramen.com/myworld.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/photography.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Project Pages -->
+  <url>
+    <loc>https://www.novaadramen.com/scribtum.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/sultangate.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/exitgate.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/paeryllmate.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.novaadramen.com/polisense.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
